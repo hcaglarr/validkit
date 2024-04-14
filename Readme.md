@@ -8,23 +8,37 @@ Before you start using this library, make sure that the Java Development Kit (JD
 
 
 ## Installation
+To analyze the dependencies of your project, you need to add the following repository information to your Maven pom.xml file. This repository provides the necessary packages via Packagecloud:
+```xml
+<repositories>
+    <repository>
+        <id>hcaglar-release</id>
+        <url>https://packagecloud.io/hcaglar/release/maven2</url>
+        <releases>
+            <enabled>true</enabled>
+        </releases>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
+    </repository>
+</repositories>
+```
 
-When starting the project, add the following Maven dependency to your pom.xml file to add basic ValidKit functionality:
-
+You should also add the following Maven dependency to your pom.xml file to add the core functionality of ValidKit when launching your project:
 ```xml
 <dependency>
     <groupId>com.hcaglar</groupId>
     <artifactId>validkit-core</artifactId>
-    <version>1.0-release</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 #### Usage with Javax
-If your project uses JavaX validation, add the following dependency to your pom.xml file to use the JavaX compatible version of ValidKit:
+If your project uses Javax validation, add the following dependency to your pom.xml file to use the Javax compatible version of ValidKit:
 ```xml
 <dependency>
     <groupId>com.hcaglar</groupId>
     <artifactId>validkit-javax</artifactId>
-    <version>1.0-release</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 
@@ -33,8 +47,8 @@ If you prefer to use Jakarta Bean Validation in the project, add the following d
 ```xml
 <dependency>
     <groupId>com.hcaglar</groupId>
-    <artifactId>validkit-javax</artifactId>
-    <version>1.0-release</version>
+    <artifactId>validkit-jakarta</artifactId>
+    <version>1.0.0</version>
 </dependency>
 ```
 
