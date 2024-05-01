@@ -29,7 +29,7 @@ You should also add the following Maven dependency to your pom.xml file to add t
 <dependency>
     <groupId>com.hcaglar</groupId>
     <artifactId>validkit-core</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 </dependency>
 ```
 #### Usage with Javax
@@ -38,7 +38,7 @@ If your project uses Javax validation, add the following dependency to your pom.
 <dependency>
     <groupId>com.hcaglar</groupId>
     <artifactId>validkit-javax</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 </dependency>
 ```
 
@@ -48,7 +48,7 @@ If you prefer to use Jakarta Bean Validation in the project, add the following d
 <dependency>
     <groupId>com.hcaglar</groupId>
     <artifactId>validkit-jakarta</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 </dependency>
 ```
 
@@ -64,25 +64,25 @@ The rows marked "..." in the table indicate that there are many more verificatio
 
 This means that the modules are constantly extensible and the development process is ongoing.
 
-| Validation name   | Status| 
-|-------------|-------------|
-| Md5   | Complated  |
-| Integer   | Pending   |
-| Float   | Pending   |
-| Double   | Pending  |
-| Double   | Pending  |
-| Port   | Pending  |
-| Json   | Pending   |
-| Xml   | Pending   |
-| Jwt   | Pending   |
-| UUID   | Pending   |
-| Url   | Pending   |
-| Alpha   | Pending   |
-| Alphanumeric   | Pending   |
-| Iban   | Pending   |
-| CreditCard   | Pending   |
-| ...   | ...   |
-| ...   | ...   |
+| Validation name | Status| 
+|-----------------|------------|
+| Md5             | Complated |
+| Integer         | Pending   |
+| Float           | Pending   |
+| Double          | Pending  |
+| Bool            | Complated |
+| Port            | Pending  |
+| Json            | Pending   |
+| Xml             | Pending   |
+| Jwt             | Pending   |
+| UUID            | Pending   |
+| Url             | Pending   |
+| Alpha           | Pending   |
+| Alphanumeric    | Pending   |
+| Iban            | Pending   |
+| CreditCard      | Pending   |
+| ...             | ...   |
+| ...             | ...   |
 
 
 
