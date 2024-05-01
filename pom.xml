@@ -15,7 +15,7 @@
     <scm>
         <developerConnection>scm:git:https://github.com/hcaglarr/validkit.git</developerConnection>
         <url>https://github.com/hcaglarr/validkit</url>
-        <tag>validkit-1.0.0</tag>
+        <tag>validkit-1.1.0</tag>
     </scm>
 
     <issueManagement>
@@ -25,7 +25,7 @@
 
     <groupId>com.hcaglar</groupId>
     <artifactId>validkit</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 
     <packaging>pom</packaging>
 
@@ -57,7 +57,7 @@
             <dependency>
                 <groupId>com.hcaglar</groupId>
                 <artifactId>validkit-core</artifactId>
-                <version>1.0.0</version>
+                <version>1.1.0</version>
             </dependency>
             <dependency>
                 <groupId>javax.validation</groupId>
